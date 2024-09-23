@@ -1,0 +1,34 @@
+# Quarto Demo
+
+This is a demonstration of authoring articles with [Quarto](https://quarto.qmd).
+
+## A Bit of Math
+
+Markdown supports embedding LaTeX for writing mathematics.
+
+For example, the area of a circle with radius $r$ is $\pi r^2$.
+
+And:
+
+$\Sigma_{x=1}^{n}{x} = \frac{n(n+1)}{2}$
+
+## The Circle
+
+Here is a sample C program using [csketch](https://gitub.com/anandology/csketch) library.
+
+```c
+#include <sketch.h>
+
+int main()
+{
+    // draw a circle with center as (0, 0) and radius 100
+    draw_circle(0, 0, 100);
+
+    // save all the shapes draws to lesson2.svg
+    save_sketch("circle.svg");
+}
+```
+
+And that generates a `circle.svg` with the following image.
+
+![](circle.svg)
